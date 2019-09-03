@@ -1,80 +1,93 @@
+/* The main body settings */
 
 body {
     background-color: white;
     margin: 0;
     padding: 0;
-    overflow: scroll;
     background: url("../images/qbkls.png");
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 }
 
-#container{
-    margin: auto;
-    width: 960px;
-    background-color: #4aaaa5;
-}
+/* The header settings for the top of the page */
 
-.header {
-    /*border-style: solid;*/
-    /*border-color: deeppink;*/
-    background-color: white;
-    height: 116px;
-
-}
 header {
-    position: relative;
-    top:21px;
-    /*border-color: greenyellow;*/
-    /*border-style: solid;*/
-    /*background-color: purple;*/
+    background-color: white;
+    height: 120px;
     color: #777;
+    border-bottom-style: solid;
+    border-color: #dddddd;
 }
 
-.border{
-    border-style: solid;
+/*h1 settings */
+
+h1 {
+    font-family:'Georgia', Times, Times New Roman, serif;
 }
 
-.green {
-    border-color: green;
+/* h2 header settings */
+
+h2 {
+    font-family:'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    text-align: left;
+    padding-left: 20px;
 }
 
-.blue {
-    border-color: blue;
+/* image positioning */
+
+img {
+    margin: 10px;
+    float: left;
+    height: 200px;
+    width: 150px;
 }
 
-.black{
-    border-color: black;
+/* paragraph positioning */
+
+p {
+    text-align: left;
+    padding-top: 10px;
+    margin: 10px;
 }
 
-
+/* title settings for your name and box color ans positioning */
 
 .title{
     float: left;
-    margin-top: 20px;
+    margin-left: 470px;
+    margin-top: 40px;
     vertical-align: middle;
     text-align: center;
     line-height: 75px;
     background-color: #4aaaa5;
     color: white;
-    height: 75px;
+    height: 80px;
     width: 250px;
-    /*border-style: dot-dash;*/
-    /*border-color: #292961;*/
+    border-style: dot-dash;
+    border-color: #292961;
+}
+
+/* Nav settings for the link positioning */
+
+nav {
+    float: left;
+    margin-top: 40px;
+    text-align: right;
+    height: 80px;
+    width: 710px;
+    vertical-align: middle;
+    line-height: 80px;
 
 }
+
+/* link specific settings */
 
 .links {
-    color: #777777;
-    vertical-align: middle;
-    text-align: center;
-    line-height: 75px;
-    float: right;
-    margin-top: 20px;
-    width: 200px;
-    height: 75px;
-    background-color: white;
-    /*border-style: solid;*/
-    /*border-color: black;*/
+    text-decoration: none;
+    color: #dddddd;
 }
+
+/* the main article settings for positioning and alignment */
 
 article{
     clear: both;
@@ -85,22 +98,69 @@ article{
     background-color: white;
     text-align: center;
     position: relative;
-    top: 30px;
-    height:450px;
+    top: 10px;
+    height:500px;
     width: 960px;
     margin: auto;
 }
 
-.main {
-    background: url("../images/qbkls.png");
-    border-top-style: solid;
-    border-color: #dddddd;
-    clear: both;
-    background-color: #777777;
+/* form positioning */
+
+form{
+    margin: 0;
+    color: #777;
+    text-align: left;
+    padding-left: 20px;
 
 }
 
+/*input field formatting */
+
+input {
+    margin-bottom: 10px;
+}
+
+/* input box formatting */
+
+.inputbox {
+    width: 920px;
+    height: 20px;
+    padding-right: -20px;
+    box-shadow: 2px 2px 2px #999;
+    border: 1px solid #dddddd;
+
+}
+
+/* message test area formatting */
+
+textarea{
+    letter-spacing: 1px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px #999;
+    border: 1px solid #dddddd;
+    resize: none;
+    width: 900px;
+    padding-right: -20px;
+    height: 200px;
+}
+
+/* button formatting */
+
+button {
+    margin-top: 20px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 125px;
+}
+
+/* the footer settings */
+
 footer {
+    color: #ffffff;
     height: 50px;
     text-align: center;
     vertical-align: bottom;
@@ -112,4 +172,12 @@ footer {
     bottom: 0;
     left: 0;
     padding: 1em;
+}
+
+/* used for testing element placement */
+
+.border {
+
+    border-color: black;
+    border-style: solid;
 }

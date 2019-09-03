@@ -1,1 +1,0 @@
-Why isn't the <nav> tag part of the body?
