@@ -1,26 +1,51 @@
 
 body {
-    background-color: gainsboro;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background: url("../images/qbkls.png");
 }
 
 #container{
-    background-color: white;
     margin: auto;
     width: 960px;
+    background-color: #4aaaa5;
 }
 
-.main {
-    clear: both;
-    width: 960px;
-    height: 900px;
-    background-color: gainsboro;
+.header {
+    /*border-style: solid;*/
+    /*border-color: deeppink;*/
+    background-color: white;
+    height: 116px;
+
 }
 header {
-    background-color: white;
-    width: 960px;
-    margin-top: 50px;
+    position: relative;
+    top:21px;
+    /*border-color: greenyellow;*/
+    /*border-style: solid;*/
+    /*background-color: purple;*/
     color: #777;
 }
+
+.border{
+    border-style: solid;
+}
+
+.green {
+    border-color: green;
+}
+
+.blue {
+    border-color: blue;
+}
+
+.black{
+    border-color: black;
+}
+
+
 
 .title{
     float: left;
@@ -32,6 +57,8 @@ header {
     color: white;
     height: 75px;
     width: 250px;
+    /*border-style: dot-dash;*/
+    /*border-color: #292961;*/
 
 }
 
@@ -44,24 +71,45 @@ header {
     margin-top: 20px;
     width: 200px;
     height: 75px;
+    background-color: white;
     /*border-style: solid;*/
     /*border-color: black;*/
 }
 
-.article {
-    clear: both;
-    background-color: #777;
-    position: relative;
-    height:200px;
-    width: 960px;
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-}
-
 article{
     clear: both;
-    color: #ebebeb;
+    color: black;
+    overflow: scroll;
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: white;
     text-align: center;
+    position: relative;
+    top: 30px;
+    height:450px;
+    width: 960px;
+    margin: auto;
 }
 
+.main {
+    background: url("../images/qbkls.png");
+    border-top-style: solid;
+    border-color: #dddddd;
+    clear: both;
+    background-color: #777777;
+
+}
+
+footer {
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 70px;
+    border-top: thick solid #4aaaa5;
+    background-color: #777777;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+}
