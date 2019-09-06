@@ -1,0 +1,8 @@
+clearfix hack
+
+clearfix
+::after
+
+.clearfix::after {
+
+}
