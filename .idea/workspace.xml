@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c61542-a141-4479-bb25-afe4913ed3ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/cssreset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/style3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style_1st_try.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style_broken.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style_old.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +118,7 @@
       <workItem from="1567798214596" duration="6403000" />
       <workItem from="1567881554433" duration="1850000" />
       <workItem from="1567883952860" duration="24000" />
-      <workItem from="1567883994271" duration="686000" />
+      <workItem from="1567883994271" duration="2526000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Created directory structure and skeleton files&#10;index.html&#10;contact.html&#10;portfolio.html&#10;images/profile_pic.jg&#10;assets/css/styles.css">
       <created>1567005208174</created>
@@ -182,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567799991843</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed header and background image to fill the page.&#10;added html css height 100%&#10;added height height to body 100%">
+      <created>1567884839973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1567884839973</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +224,8 @@
     <MESSAGE value="completed contact page&#10;moved old html and css files to a new directory called extra_files&#10;started portfolio.html page" />
     <MESSAGE value="completed portfolio page" />
     <MESSAGE value="still fighting with header" />
-    <option name="LAST_COMMIT_MESSAGE" value="still fighting with header" />
+    <MESSAGE value="fixed header and background image to fill the page.&#10;added html css height 100%&#10;added height height to body 100%" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed header and background image to fill the page.&#10;added html css height 100%&#10;added height height to body 100%" />
   </component>
   <component name="masterDetails">
     <states>
