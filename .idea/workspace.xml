@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03c61542-a141-4479-bb25-afe4913ed3ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style3.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +118,7 @@
       <workItem from="1567798214596" duration="6403000" />
       <workItem from="1567881554433" duration="1850000" />
       <workItem from="1567883952860" duration="24000" />
-      <workItem from="1567883994271" duration="2526000" />
+      <workItem from="1567883994271" duration="5348000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit&#10;Created directory structure and skeleton files&#10;index.html&#10;contact.html&#10;portfolio.html&#10;images/profile_pic.jg&#10;assets/css/styles.css">
       <created>1567005208174</created>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567884839973</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="cleaned up css&#10;created separate css files for different pages">
+      <created>1567886570654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1567886570654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +232,8 @@
     <MESSAGE value="completed portfolio page" />
     <MESSAGE value="still fighting with header" />
     <MESSAGE value="fixed header and background image to fill the page.&#10;added html css height 100%&#10;added height height to body 100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed header and background image to fill the page.&#10;added html css height 100%&#10;added height height to body 100%" />
+    <MESSAGE value="cleaned up css&#10;created separate css files for different pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up css&#10;created separate css files for different pages" />
   </component>
   <component name="masterDetails">
     <states>
